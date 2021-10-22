@@ -135,7 +135,7 @@
           "description": "One way to work with Custom Properties is to think of them as design tokens. Colors, spacings, fonts, and whatnot. You set them at the root of the page and use them throughout your CSS. Very useful, and the classic …\nThe post Different Degrees of Custom Property Usage appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/different-degrees-of-custom-property-usage/",
           "publishedOn": "2021-10-14T14:35:42.000Z",
-          "wordCount": 1780,
+          "wordCount": 1832,
           "title": "Different Degrees of Custom Property Usage"
         },
         {
