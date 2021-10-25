@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itzjustalan.github.io/automatic-broccoli/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-24T00:35:59.957Z</updated>
+    <updated>2021-10-25T00:38:04.985Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://itzjustalan.github.io/automatic-broccoli/index.html"/>
     <link rel="self" href="https://itzjustalan.github.io/automatic-broccoli/feed.atom"/>
@@ -48,36 +48,6 @@ Grades: U-9 (U-A**)
 Years: 9-10/11
 Summary
 The (International) General Certificate of Secondary Education is a qualification standard introduced in the UK in 1988. (The "International" GCSE is essentially the same system, but with some content cut for international audiences.) The (I)GCSE has a set of core subjects which are mandatory to complete; one of these is Humanities, for which you can pick between History or Geography. Alongside this, …]]></summary>
-        <author>
-            <name>DenshiBlog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Added features to the blog system]]></title>
-        <id>https://denshi.org/blog/added-features-to-the-blog-system.html</id>
-        <link href="https://denshi.org/blog/added-features-to-the-blog-system.html"/>
-        <updated>2021-09-25T05:38:53.000Z</updated>
-        <summary type="html"><![CDATA[Recently, I've been tinkering around with Luke Smith's 'lb' script and adding various useful features.
-The most useful one (which you will notice at the bottom of this entry) is the new (Reply-to) link at the end of all articles. This is appended automatically by the script everytime I publish a new article, and it works on RSS as well! This way, people have a convenient way of contacting me about any article; The link also sets the subject of your email to the title of my article, for extra comfiness.
-One minor addition is that I fixed the links in the RSS feed. Now my articles link directly to their blog page counterparts, and not to the very unhelpful rolling blog page. I hope this makes reading my articles more convenient for all.
-I am considering getting rid of the rolling blog page in future, or maybe adding some extra features. If you have any suggestions, click the "Reply-to" link and send me an email with your ideas!
-(Reply-to)]]></summary>
-        <author>
-            <name>DenshiBlog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Music production on Linux]]></title>
-        <id>https://denshi.org/blog/music-production-on-linux.html</id>
-        <link href="https://denshi.org/blog/music-production-on-linux.html"/>
-        <updated>2021-09-24T17:24:12.000Z</updated>
-        <summary type="html"><![CDATA[For a very, very long time, musicians all over the world have employed the use of computers to aid them in music production. GNU/Linux, being the OS of choice for tinkerers and the technically inclined, gained a major following in the music and video production scene for it's speed, reliability and compatibility over the years. But what does music production on Linux actually look like?
-LMMS
-LMMS, also known as the Linux Multimedia Suite (or more commonly as "Let's Make Music) is a Digital Audio Workstation (DAW) for Linux, Windows and MacOS. It's the single music production software I'm most experienced with, so I'm going to list some pros and cons:
-Pros:
-It's great for MIDI and sequencing.
-It's compatible with most LADSPA plugins and supports WINE for Windows VSTs.
-It has one of the most…]]></summary>
         <author>
             <name>DenshiBlog</name>
         </author>
