@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itzjustalan.github.io/automatic-broccoli/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-02T00:38:04.691Z</updated>
+    <updated>2021-11-03T00:34:44.233Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://itzjustalan.github.io/automatic-broccoli/index.html"/>
     <link rel="self" href="https://itzjustalan.github.io/automatic-broccoli/feed.atom"/>
@@ -32,22 +32,6 @@ Generalic Chat, the classic, no-topic discussion channel,
 Tech Support, an excellent (terrible) place to ask for help with computers,
 and finally, Bloated Meme Chat, where all the spiciest memes 🌶️ 🌶️ are posted.
 The XMPP server is open to registrations, so if you've been meaning to try out XMPP, here's your chance to get an account through in-band registration. Just make sure to encrypt your messages, or I'll sp…]]></summary>
-        <author>
-            <name>DenshiBlog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Guide to GCSE and A-Level]]></title>
-        <id>https://denshi.org/blog/guide-to-gcse-and-alevel.html</id>
-        <link href="https://denshi.org/blog/guide-to-gcse-and-alevel.html"/>
-        <updated>2021-10-03T12:53:27.000Z</updated>
-        <summary type="html"><![CDATA[Whenever I talk to my younger siblings and their friends about their future in school, I often see a lot of confusion regarding the current educational and examination systems. In this article, I will list and summarize the most common British qualifications, alongside some editorial paragraphs giving my opinion on each one.
-(I)GCSE
-Length: 2-3 years
-Grades: U-9 (U-A**)
-Years: 9-10/11
-Summary
-The (International) General Certificate of Secondary Education is a qualification standard introduced in the UK in 1988. (The "International" GCSE is essentially the same system, but with some content cut for international audiences.) The (I)GCSE has a set of core subjects which are mandatory to complete; one of these is Humanities, for which you can pick between History or Geography. Alongside this, …]]></summary>
         <author>
             <name>DenshiBlog</name>
         </author>
