@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itzjustalan.github.io/automatic-broccoli/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-11T00:35:07.424Z</updated>
+    <updated>2021-11-12T00:36:36.033Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://itzjustalan.github.io/automatic-broccoli/index.html"/>
     <link rel="self" href="https://itzjustalan.github.io/automatic-broccoli/feed.atom"/>
@@ -16,22 +16,6 @@ It's incredibly poorly-made/There's some giant error
 It doesn't fit the the general "theme" or tone of my channel
 It seems backwards and harmful in hindsight
 Every time I take down a video, I instantly upload it to my backup channel, DenshiBackup (YouTube link). This is because while I don't want to make my videos lost media! I'm sure that basically no one cares much for any of my videos, especially my older ones, but they have sentimental value to me (yes, even the garbage ones) so I keep them there for myself and anyone else who i…]]></summary>
-        <author>
-            <name>DenshiBlog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some self-hosting updates]]></title>
-        <id>https://denshi.org/blog/some-selfhosting-updates.html</id>
-        <link href="https://denshi.org/blog/some-selfhosting-updates.html"/>
-        <updated>2021-10-12T16:01:10.000Z</updated>
-        <summary type="html"><![CDATA[I've been working the last few weeks on some additions to my self-hosting cabal of software; I'm happy to present these changes in today's post.
-XMPP Server!
-This is old news, but I have an XMPP server! (denshi.org) I'm there and, in addition to having some public multi-user chats, these chats are bridged over to the Matrix and Discord thanks to Matterbridge. Here are the chats:
-Generalic Chat, the classic, no-topic discussion channel,
-Tech Support, an excellent (terrible) place to ask for help with computers,
-and finally, Bloated Meme Chat, where all the spiciest memes 🌶️ 🌶️ are posted.
-The XMPP server is open to registrations, so if you've been meaning to try out XMPP, here's your chance to get an account through in-band registration. Just make sure to encrypt your messages, or I'll sp…]]></summary>
         <author>
             <name>DenshiBlog</name>
         </author>

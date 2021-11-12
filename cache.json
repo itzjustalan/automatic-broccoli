@@ -13,15 +13,6 @@
           "publishedOn": "2021-10-16T13:33:26.000Z",
           "wordCount": 977,
           "title": "Archiving some older videos"
-        },
-        {
-          "id": "https://denshi.org/blog/some-selfhosting-updates.html",
-          "author": null,
-          "description": "I've been working the last few weeks on some additions to my self-hosting cabal of software; I'm happy to present these changes in today's post.\nXMPP Server!\nThis is old news, but I have an XMPP server! (denshi.org) I'm there and, in addition to having some public multi-user chats, these chats are bridged over to the Matrix and Discord thanks to Matterbridge. Here are the chats:\nGeneralic Chat, the classic, no-topic discussion channel,\nTech Support, an excellent (terrible) place to ask for help with computers,\nand finally, Bloated Meme Chat, where all the spiciest memes 🌶️ 🌶️ are posted.\nThe XMPP server is open to registrations, so if you've been meaning to try out XMPP, here's your chance to get an account through in-band registration. Just make sure to encrypt your messages, or I'll sp…",
-          "link": "https://denshi.org/blog/some-selfhosting-updates.html",
-          "publishedOn": "2021-10-12T16:01:10.000Z",
-          "wordCount": 851,
-          "title": "Some self-hosting updates"
         }
       ]
     }
