@@ -2,22 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itzjustalan.github.io/automatic-broccoli/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-15T00:35:17.906Z</updated>
+    <updated>2021-11-16T00:35:19.879Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://itzjustalan.github.io/automatic-broccoli/index.html"/>
     <link rel="self" href="https://itzjustalan.github.io/automatic-broccoli/feed.atom"/>
-    <entry>
-        <title type="html"><![CDATA[Archiving some older videos]]></title>
-        <id>https://denshi.org/blog/archiving-some-older-videos.html</id>
-        <link href="https://denshi.org/blog/archiving-some-older-videos.html"/>
-        <updated>2021-10-16T13:33:26.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes I take down videos from my channel. It's normally for a combination of reasons, but what it really waters down to is that I don't think those videos leave an accurate impression to new viewers. Here's a list of reasons I may want to take down a video:
-It's incredibly poorly-made/There's some giant error
-It doesn't fit the the general "theme" or tone of my channel
-It seems backwards and harmful in hindsight
-Every time I take down a video, I instantly upload it to my backup channel, DenshiBackup (YouTube link). This is because while I don't want to make my videos lost media! I'm sure that basically no one cares much for any of my videos, especially my older ones, but they have sentimental value to me (yes, even the garbage ones) so I keep them there for myself and anyone else who i…]]></summary>
-        <author>
-            <name>DenshiBlog</name>
-        </author>
-    </entry>
 </feed>
