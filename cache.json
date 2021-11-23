@@ -4,7 +4,17 @@
       "title": "DenshiBlog",
       "feedUrl": "https://denshi.org/rss.xml",
       "siteUrl": "http://denshi.org/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://denshi.org/blog/cvrt-ffmpeg-made-slightly-easier.html",
+          "author": null,
+          "description": "If you've been using Linux for a few days now, you're probably already aware of the swiss-army knife of media conversion and compression: FFMPEG. It's often pre-installed on most Linux distros, and it offers a simple command-line way of converting between all (most) media formats.\nHowever, despite its compatibility and ubiquity, I've always felt FFMPEG doesn't do enough to handle repetitive, batch-like conversions using regular expressions. For example: imagine you had a file full of mp4 files, and you wanted to convert each of them to mov. With cvrt, you can run the following command:\ncvrt *.mp4 mov\nAll this script does is take two arguments: the input files (*.mp4), and the last argument passed, which is the output format/file (mov). Another useful feature of cvrt is the fact you can specify cases for outputs. For example: if I wanted each mov file to be in a specific audio and video codec (ie. for DaVinci Resolve), then you can specify it in the script:\n# Exception options for specific formats\ncase \"$ext\" in\n*flac) OPT=$OPT:\" -vn\" ;;\n*mov) OPT=$OPT:\" -c:v mpeg4 -q:v 0 -pix_fmt yuv420p -c:a pcm_s16le\" ;;\n*mp4) OPT=$OPT:\" -c:v libx264 -crf 21 -c:a libopus -b:a 320k\" ;;\nesac\nIn this case, there are cases for flac, mov and mp4 output files, to ensure the resulting files always come out with specific codecs, using FFMPEG flags.\nDownload cvrt from my dotfiles.\n*the script is still a WIP, not every bug has been fixed yet. If you have any suggestions, feel free to contact me or open an issue on GitLab!\n(Reply-to)",
+          "link": "https://denshi.org/blog/cvrt-ffmpeg-made-slightly-easier.html",
+          "publishedOn": "2021-11-22T04:29:06.000Z",
+          "wordCount": 277,
+          "title": "cvrt: FFMPEG, made slightly easier"
+        }
+      ]
     }
   ],
   "cliVersion": "1.11.3"
