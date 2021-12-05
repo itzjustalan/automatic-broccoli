@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itzjustalan.github.io/automatic-broccoli/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-02T00:35:50.813Z</updated>
+    <updated>2021-12-05T00:39:18.467Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://itzjustalan.github.io/automatic-broccoli/index.html"/>
     <link rel="self" href="https://itzjustalan.github.io/automatic-broccoli/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Updates: Switching to Codeberg, plans for future videos]]></title>
+        <id>https://denshi.org/blog/updates-switching-to-codeberg-plans-for-future-videos.html</id>
+        <link href="https://denshi.org/blog/updates-switching-to-codeberg-plans-for-future-videos.html"/>
+        <updated>2021-12-03T15:40:20.000Z</updated>
+        <summary type="html"><![CDATA[I recently moved all of my repositories from my GitLab to a different git hosting site, Codeberg. I had known about the various existing git hosting sites, such as Sourcehut and various Cgit instances for a while, but I spent too long looking for a site that compromised common-sense privacy and anti-bloat defaults and popularity and usability, only to find Codeberg fits most of the requirements I needed.
+My repos (as of now)
+I only have two important repositories on my Codeberg:
+Site
+This is the repository where the source code to this website is stored. The reason I feel it really necessary to share this publically is so people can use my modified version of lb, which corrects the links in the RSS feed, gets rid of the rolling blog page and adds a "reply-to" link at the bottom of every article.
+Dots
+This is the repository where I store all my dotfiles. This includes some basic configs for some programs and my custom builds of dwm and st.
+On my videos
+As of recently, I've become more focused on making videos about Linux and technology. Despite this recent upturn in Linux videos, I want to make it perfectly clear that I continue to have no specific topic or direction to my channel. I want to make videos people like and want to watch; Whether they are pragmatically useful, like Linux/tech guides, or simply entertaining, doesn't change the fact that they're videos I want to make. So, just to make things clear, I will continue to make fun, well-edited and long videos from time to time.
+(Reply-to)]]></summary>
+        <author>
+            <name>DenshiBlog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[cvrt: FFMPEG, made slightly easier]]></title>
         <id>https://denshi.org/blog/cvrt-ffmpeg-made-slightly-easier.html</id>
