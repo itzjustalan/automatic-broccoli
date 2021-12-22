@@ -78,44 +78,9 @@ As of recently, I&#x27;ve become more focused on making videos about Linux and t
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-11-22">2021-11-22</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://denshi.org/rss.xml">DenshiBlog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">cvrt: FFMPEG, made slightly easier</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://denshi.org/blog/cvrt-ffmpeg-made-slightly-easier.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>If you&#x27;ve been using Linux for a few days now, you&#x27;re probably already aware of the swiss-army knife of media conversion and compression: FFMPEG. It&#x27;s often pre-installed on most Linux distros, and it offers a simple command-line way of converting between all (most) media formats.
-However, despite its compatibility and ubiquity, I&#x27;ve always felt FFMPEG doesn&#x27;t do enough to handle repetitive, batch-like conversions using regular expressions. For example: imagine you had a file full of mp4 files, and you wanted to convert each of them to mov. With cvrt, you can run the following command:
-cvrt *.mp4 mov
-All this script does is take two arguments: the input files (*.mp4), and the last argument passed, which is the output format/file (mov). Another useful feature of cvrt is the fact you can specify cases for outputs. For example: if I wanted each mov file to be in a specific audio and video codec (ie. for DaVinci Resolve), then you can specify it in the script:
-# Exception options for specific formats
-case &quot;$ext&quot; in
-*flac) OPT&#x3D;$OPT:&quot; -vn&quot; ;;
-*mov) OPT&#x3D;$OPT:&quot; -c:v mpeg4 -q:v 0 -pix_fmt yuv420p -c:a pcm_s16le&quot; ;;
-*mp4) OPT&#x3D;$OPT:&quot; -c:v libx264 -crf 21 -c:a libopus -b:a 320k&quot; ;;
-esac
-In this case, there are cases for flac, mov and mp4 output files, to ensure the resulting files always come out with specific codecs, using FFMPEG flags.
-Download cvrt from my dotfiles.
-*the script is still a WIP, not every bug has been fixed yet. If you have any suggestions, feel free to contact me or open an issue on GitLab!
-(Reply-to)</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-12-21T00:40:25.304Z">2021-12-21T00:40:25.304Z</time>
+    <time id="build-timestamp" datetime="2021-12-22T00:39:34.211Z">2021-12-22T00:39:34.211Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
